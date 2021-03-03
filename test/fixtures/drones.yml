@@ -1,0 +1,25 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  image: MyString
+  model: MyString
+  location: MyString
+  price_day: 1
+  price_week: 1
+  price_month: 1
+  price_year: 1
+  max_capacity: 1
+  max_distance: 1
+  category: MyString
+
+two:
+  image: MyString
+  model: MyString
+  location: MyString
+  price_day: 1
+  price_week: 1
+  price_month: 1
+  price_year: 1
+  max_capacity: 1
+  max_distance: 1
+  category: MyString
