@@ -18,13 +18,13 @@ Booking.destroy_all
     
     Drone.create(image: "https://149355317.v2.pressablecdn.com/wp-content/uploads/2017/09/flytrex-delivery-drone.png", model: Faker::Drone.name, location: Faker::Address.city, price_day: Faker::Commerce.price, price_week: Faker::Commerce.price, price_month: Faker::Commerce.price, price_year: Faker::Number.decimal(l_digits: 3, r_digits: 3), max_capacity: Faker::Drone.weight, max_distance: Faker::Drone.max_flight_distance, category: 'Small business')
 
-    Drone.create(image: "https://www.adorama.com/images/Large/spcat050001g.jpg", model: Faker::Drone.name, location: Faker::Address.city, price_day: Faker::Commerce.price, price_week: Faker::Commerce.price, price_month: Faker::Commerce.price, price_year: Faker::Number.decimal(l_digits: 3, r_digits: 3), max_capacity: Faker::Drone.weight, max_distance: Faker::Drone.max_flight_distance, category: 'Personal')
+    Drone.create(image: "https://aircargoworld.com/wp-content/uploads/2018/09/0905_flytrex-mule-on-ground.png", model: Faker::Drone.name, location: Faker::Address.city, price_day: Faker::Commerce.price, price_week: Faker::Commerce.price, price_month: Faker::Commerce.price, price_year: Faker::Number.decimal(l_digits: 3, r_digits: 3), max_capacity: Faker::Drone.weight, max_distance: Faker::Drone.max_flight_distance, category: 'Personal')
 
     Drone.create(image: "https://aircargoworld.com/wp-content/uploads/2018/09/0905_flytrex-mule-on-ground.png", model: Faker::Drone.name, location: Faker::Address.city, price_day: Faker::Commerce.price, price_week: Faker::Commerce.price, price_month: Faker::Commerce.price, price_year: Faker::Number.decimal(l_digits: 3, r_digits: 3), max_capacity: Faker::Drone.weight, max_distance: Faker::Drone.max_flight_distance, category: 'Industrial')
 
     Drone.create(image: "https://149355317.v2.pressablecdn.com/wp-content/uploads/2017/09/flytrex-delivery-drone.png", model: Faker::Drone.name, location: Faker::Address.city, price_day: Faker::Commerce.price, price_week: Faker::Commerce.price, price_month: Faker::Commerce.price, price_year: Faker::Number.decimal(l_digits: 3, r_digits: 3), max_capacity: Faker::Drone.weight, max_distance: Faker::Drone.max_flight_distance, category: 'Small business')
 
-    Drone.create(image: "https://www.adorama.com/images/Large/spcat050001g.jpg", model: Faker::Drone.name, location: Faker::Address.city, price_day: Faker::Commerce.price, price_week: Faker::Commerce.price, price_month: Faker::Commerce.price, price_year: Faker::Number.decimal(l_digits: 3, r_digits: 3), max_capacity: Faker::Drone.weight, max_distance: Faker::Drone.max_flight_distance, category: 'Personal')
+    Drone.create(image: "https://aircargoworld.com/wp-content/uploads/2018/09/0905_flytrex-mule-on-ground.png", model: Faker::Drone.name, location: Faker::Address.city, price_day: Faker::Commerce.price, price_week: Faker::Commerce.price, price_month: Faker::Commerce.price, price_year: Faker::Number.decimal(l_digits: 3, r_digits: 3), max_capacity: Faker::Drone.weight, max_distance: Faker::Drone.max_flight_distance, category: 'Personal')
 
  
 
